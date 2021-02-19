@@ -1,0 +1,68 @@
+/*Selector {
+    Property:value
+}*/
+
+*{
+    text-align: right; /* Everything that's below this will follow the most SPECIFIC rules */
+}
+
+body {
+    background-color:rgb(40,40,40);
+    background-image: url(https://images.unsplash.com/photo-1595309386838-1ba6cce1bfc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80);
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+p {
+    color:#949AC2;
+    text-align: center;
+    border: 5px solid rgba(39, 49, 109);
+    cursor: pointer;
+}
+
+p{
+    line-height: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 150%;
+    font-family: 'Raleway', sans-serif;
+}
+
+img {
+    float: left;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    color: white;
+}
+
+p {
+    color:#949AC2;
+}
+
+p {
+    color: green; /* THIS WILL BE PREFERRED BECAUSE CSS IS CASCADING!!! */
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.webtext {
+    border: 5px dashed green;
+}
+
+.active {
+    color: red;
+}
+
+#div1 {
+    background: rgba(0,0,255,0.2);
+}
+
+#div2 {
+    background: rgba(255,0,0,0.2);
+}
