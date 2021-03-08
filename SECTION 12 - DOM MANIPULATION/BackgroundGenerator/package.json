@@ -1,0 +1,14 @@
+{
+  "name": "backgroundgenerator",
+  "version": "1.0.0",
+  "description": "Background Gen",
+  "main": "script.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Enrico",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
