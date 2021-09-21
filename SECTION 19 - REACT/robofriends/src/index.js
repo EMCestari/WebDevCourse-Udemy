@@ -1,5 +1,5 @@
 import React from 'react';
-import App from './App';
+import App from './containers/App';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
